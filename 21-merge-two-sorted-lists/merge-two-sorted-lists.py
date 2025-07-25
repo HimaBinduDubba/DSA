@@ -19,5 +19,3 @@ class Solution:
             current.next=ListNode(val)
             current=current.next
         return dummy.next            
-        
-        
