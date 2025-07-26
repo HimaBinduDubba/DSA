@@ -11,6 +11,7 @@ class Solution:
 
        
         for key, value in sorted_items:
-            res += [key] * value
+            for _ in range(value):
+                res.append(key)
 
         return res
