@@ -19,7 +19,9 @@ class Solution:
             i=i+1
             j=j+1
         if i<len(res1):
-            result.append(res1[i])       
+            result.append(res1[i]) 
+        if j<len(res2):
+            result.append(res2[j])          
         return result    
 
 
