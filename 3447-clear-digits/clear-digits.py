@@ -7,4 +7,4 @@ class Solution:
                     stack.pop()
             else:
                 stack.append(ch)
-        return "".join(stack)                
+        return "".join(stack)                               
