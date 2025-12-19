@@ -5,15 +5,13 @@ class Solution:
         high=len(nums)-1
         while mid<=high:
             if nums[mid]==0:
-                nums[low],nums[mid]=nums[mid],nums[low]
+                nums[mid],nums[low]=nums[low],nums[mid]
                 mid=mid+1
                 low=low+1
             elif nums[mid]==1:
-                
                 mid=mid+1
             else:
                 nums[mid],nums[high]=nums[high],nums[mid]
                 high=high-1
-        return nums        
-
+                        
         
