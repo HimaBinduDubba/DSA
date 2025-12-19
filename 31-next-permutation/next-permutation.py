@@ -8,7 +8,7 @@ class Solution:
                 idx=i
                 break
         if idx!=-1:
-            for j in range(n-1,idx,-1):
+            for j in range(n-1,-1,-1):
                 if nums[j]>nums[idx]:
                     nums[idx],nums[j]=nums[j],nums[idx]
                     break
