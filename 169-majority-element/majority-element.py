@@ -5,10 +5,11 @@ class Solution:
         for num in nums:
             if count==0:
                 major=num
-            if major==num:
+            if num==major:
                 count=count+1
             else:
-                count=count-1    
-        return major        
+                count=count-1
+        return major                
+
 
         
