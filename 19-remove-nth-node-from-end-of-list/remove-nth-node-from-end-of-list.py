@@ -11,12 +11,12 @@ class Solution:
             current=current.next
             k=k+1
         if k-n==0:
-            return head.next
-        current=head    
+            return head.next   
+        current=head
         for _ in range(1,k-n):
-            current=current.next
+            current=current.next     
         current.next=current.next.next
-        return head            
+        return head    
 
 
         
