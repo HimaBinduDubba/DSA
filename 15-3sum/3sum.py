@@ -1,5 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        
         res=set()
         nums.sort()
         for i in range(len(nums)-2):
@@ -15,4 +16,4 @@ class Solution:
                     left=left+1
                 else:
                     right=right-1        
-        return list(res)            
+        return list(res)    
