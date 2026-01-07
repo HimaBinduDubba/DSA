@@ -16,4 +16,4 @@ class Solution:
                     left=left+1
                 else:
                     right=right-1        
-        return list(res)    
+        return list(res)  
