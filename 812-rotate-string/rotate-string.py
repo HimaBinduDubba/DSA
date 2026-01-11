@@ -1,11 +1,10 @@
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
-        if s==goal:
+        if goal==s:
             return True
-        res=""
-        for i in range(len(s)-1):
-            res=s[i+1:]+s[0:i+1]
-            if res==goal:
+        
+        for i in range(1,len(s)):
+            if s[i:len(s)]+s[0:i]==goal:
                 return True
         return False        
-
+        
