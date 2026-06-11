@@ -1,2 +1,2 @@
 # Write your MySQL query statement below
-select name as Customers from Customers  left join Orders on Customers.id=Orders.customerid where Orders.CustomerId is Null
+select name as Customers from Customers left join Orders on Customers.id=Orders.customerId where Orders.customerid is Null  
